@@ -12,5 +12,5 @@ def init(a,b):
     num_2 = b
     
 
-def do_it():
+def do_it ():
     return num_1 / num_2

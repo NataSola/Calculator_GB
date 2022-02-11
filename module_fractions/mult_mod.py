@@ -1,16 +1,16 @@
 from fractions import Fraction
 
 
-num_1 = Fraction() 
-num_2 = Fraction()
+x = Fraction() 
+y = Fraction()
 
 
 def init(a,b):
-    global num_1
-    global num_2 
-    num_1 = a
-    num_2 = b
+    global x
+    global y 
+    x = a
+    y = b
     
 
 def do_it():
-    return num_1 * num_2
+    return x * y
