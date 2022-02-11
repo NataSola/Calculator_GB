@@ -4,5 +4,5 @@ def get_value():
 def get_operator():
     return input('Введите оператор: ')
 
-def get_result(data):
-    print('Результат: {data}')
+def get_result(res):
+    print(res)
