@@ -5,10 +5,6 @@ import module_fractions.sum_mod as fsum
 import view
 import guid
 
-# oper = '/'
-
-# a = 6
-# b = 2
 
 def button_click():
     value_a = view.get_value()
@@ -17,10 +13,4 @@ def button_click():
     func = guid.dict_fract[oper]
     func.init(value_a, value_b)
     result = func.do_it()
-    view.get_result(f'Результат: {result}')
-
-
-
-
-
-
+    view.get_result(result)
