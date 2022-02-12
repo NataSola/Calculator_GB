@@ -1,7 +1,7 @@
-from fractions import Fraction
+import cmath
 
-num_1 = Fraction() 
-num_2 = Fraction()
+num_1 = complex() 
+num_2 = complex()
 
 
 def init(a,b):
@@ -12,4 +12,4 @@ def init(a,b):
     
 
 def do_it():
-    return num_1 * num_2
+    return num_1 / num_2
