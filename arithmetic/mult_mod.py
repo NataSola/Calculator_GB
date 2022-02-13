@@ -1,7 +1,5 @@
-from fractions import Fraction
-
-num_1 = Fraction() 
-num_2 = Fraction()
+num_1 = () 
+num_2 = ()
 
 
 def init(a,b):
