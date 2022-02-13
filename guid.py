@@ -4,3 +4,4 @@ import module_fractions.subt_mod as fsub
 import module_fractions.sum_mod as fsum
 
 dict_fract = {'/': fdiv, '*': fmul, '-': fsub, '+': fsum}
+dict_log = {fdiv: 'Деление дробей', fmul: 'Умножение дробей', fsub: 'Вычитание дробей', fsum: 'Сложение дробей'}
