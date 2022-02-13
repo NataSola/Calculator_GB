@@ -1,8 +1,8 @@
-import module_fractions.div_mod as fdiv
-import module_fractions.mult_mod as fmul
-import module_fractions.subt_mod as fsub
-import module_fractions.sum_mod as fsum
+import arithmetic.div_mod as div
+import arithmetic.mult_mod as mul
+import arithmetic.subt_mod as sub
+import arithmetic.sum_mod as sum
 
 
-dict_fract = {'/': fdiv, '*': fmul, '-': fsub, '+': fsum}
+dict_ar = {'/': div, '*': mul, '-': sub, '+': sum}
 dict_log = {'/': 'деление', '*': 'умножение', '-': 'вычитание', '+': 'сложение'}
