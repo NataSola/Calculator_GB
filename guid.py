@@ -6,6 +6,3 @@ import module_fractions.sum_mod as fsum
 
 dict_fract = {'/': fdiv, '*': fmul, '-': fsub, '+': fsum}
 dict_log = {'/': 'Деление', '*': 'Умножение', '-': 'Вычитание', '+': 'Сложение'}
-
-
-

@@ -10,4 +10,6 @@ def button_click():
     func = guid.dict_fract[oper]
     func.init(value_a, value_b)
     result = func.do_it()
-    view.get_result(f'Результат {result}')
+    view.get_result(result)
+    operation = guid.dict_log[oper]
+    logger.get_log(result, operation)
