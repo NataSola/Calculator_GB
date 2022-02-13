@@ -1,7 +1,7 @@
 from fractions import Fraction
 import cmath
 import sys
-import logger as log
+
 
 def get_value():
     value = input('Введите число: ')
@@ -11,6 +11,7 @@ def get_value():
     except ValueError:
         value = complex(value)
         return value
+
 
 def get_operator():
     oper = input('Введите оператор: ')
