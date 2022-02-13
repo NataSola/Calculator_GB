@@ -1,5 +1,4 @@
 from datetime import datetime as dt
-# from unittest import result
 from guid import dict_log
 
 
