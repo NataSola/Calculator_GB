@@ -1,5 +1,6 @@
 import view
 import guid
+import logger
 
 
 def button_click():
